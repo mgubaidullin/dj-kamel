@@ -3,9 +3,9 @@ Requires OpenShift or CRC, Camel-K CLI and trained model
 
 ### What is Camel-K
 
-Read [Introducing Camel K](https://www.nicolaferraro.me/2018/10/15/introducing-camel-k/) from 
+Read [Introducing Camel K](https://www.nicolaferraro.me/2018/10/15/introducing-camel-k/) to learn more 
 
-![camel-k]()
+![camel-k](https://github.com/mgubaidullin/dj-kamel/raw/master/camel-k.png)
 
 ### How to run
 
