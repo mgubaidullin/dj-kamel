@@ -1,7 +1,13 @@
 ## Serverless Image classification inference with DJL and Camel-K
+Requires OpenShift or CRC, Camel-K CLI and trained model 
+
+### What is Camel-K
+
+Read [Introducing Camel K](https://www.nicolaferraro.me/2018/10/15/introducing-camel-k/) from 
+
+![camel-k]()
 
 ### How to run
-Requires OpenShift or CRC, Camel-K CLI and trained model 
 
 ```
 kamel run -d camel-djl -d camel-jackson -d camel-vertx-http \
@@ -22,7 +28,7 @@ Example
 curl -i -X GET "http://dj-kamel-dj-kamel.apps-crc.testing/image?protocol=http&url=github.com/mgubaidullin/dj-kamel/raw/master/negative.jpg"
 ```
 
-### Code
+### Integration code
 dj-kamel.groovy
 ``` groovy
 import ai.djl.Model
