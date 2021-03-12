@@ -1,7 +1,7 @@
-# Serverless Image classification inference with DJL and Camel-K
+## Serverless Image classification inference with DJL and Camel-K
 
-## How to run
-Requires OpenShift or CRC, Camel-K CLI 
+### How to run
+Requires OpenShift or CRC, Camel-K CLI and trained model 
 
 ```
 kamel run -d camel-djl -d camel-jackson -d camel-vertx-http \
@@ -11,7 +11,7 @@ kamel run -d camel-djl -d camel-jackson -d camel-vertx-http \
 dj-kamel.groovy --dev
 ```
 
-## How to infer
+### How to infer
 Requires OpenShift or CRC, Camel-K CLI
 
 ```
