@@ -10,7 +10,7 @@ import org.apache.camel.Exchange
 import java.nio.file.Paths
 
 camel {
-    DownloadUtils.download('https://github.com/mgubaidullin/hybrid-ai-flow/releases/download/model/defects-0001.params', '/tmp/model-0001.params')
+    DownloadUtils.download('https://github.com/mgubaidullin/dj-kamel/raw/master/defects-0001.params', '/tmp/model-0001.params')
 
     def resNet = ResNetV1.builder().setImageShape(new Shape(3, 23, 23)).setNumLayers(20).setOutSize(2).build()
     def model = Model.newInstance('model')
