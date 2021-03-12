@@ -1,0 +1,19 @@
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# OSX
+.DS_Store
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+/.java-version
+/src/
+/pom.xml
