@@ -1,11 +1,13 @@
 ## Serverless Image classification inference with DJL and Camel-K
 Requires OpenShift or CRC, Camel-K CLI and trained model 
 
+### Architecture
+
+![architecture](architecture.png)
+
 ### What is Camel-K
 
-Read [Introducing Camel K](https://www.nicolaferraro.me/2018/10/15/introducing-camel-k/) to learn more 
-
-![camel-k](https://github.com/mgubaidullin/dj-kamel/raw/master/camel-k.png)
+Read [Introducing Camel K](https://www.nicolaferraro.me/2018/10/15/introducing-camel-k/) to learn more
 
 ### How to run
 
