@@ -73,3 +73,7 @@ rest('/image')
         .to('djl:cv/image_classification??model=Model&translator=Translator')
         .marshal().json(true)
 ```        
+
+### Data
+Dataset used for model training is ["Concrete Crack Images for Classification"](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
+by Çağlar Fırat Özgenel is licensed under CC BY 4.0
